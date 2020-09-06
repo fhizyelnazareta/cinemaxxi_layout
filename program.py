@@ -38,6 +38,7 @@ def transaction_data():
 
 # fungsi untuk menambah pemesanan kursi
 def insert_data():
+    print("\t=========== Pesanan kursi ===========\n")
     print("Contoh Kode kursi [A1,A2,A3,A4,A5]\n")
     kursi_baru = input("Masukan Kode kursi: ")
     status_kursi = input("Status kursi?[sold/free] :")
@@ -49,6 +50,7 @@ def insert_data():
 
 # fungsi untuk edit pemesanan kursi
 def edit_data():
+    print("\t========== Ubah data Pesanan ===========\n")
     show_data()
     indeks = int(input("Inputkan No kursi: ")) - 1
     if (indeks >= len(kursi)):
