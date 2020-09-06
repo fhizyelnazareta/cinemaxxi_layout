@@ -87,7 +87,7 @@ def show_menu():
     print("[5] Laporan Denah Transaksi --> transaction_status")
     print("[6] Keluar Aplikasi --> exit")
 
-    menu = int(input("MASUKAN MENU: "))
+    menu = int(input("\nMASUKAN MENU: "))
     print("\n")
 
     if menu == 1:
